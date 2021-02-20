@@ -1,0 +1,125 @@
+.steps-tracker {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.steps-form {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: normal;
+  align-self: baseline;
+}
+
+.steps-form__field {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-right: 20px;
+}
+
+.steps-form__field-title {
+  margin: 10px 0;
+}
+
+.steps-form__input {
+  padding: 15px 10px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.steps-form__input:focus {
+  outline: none;
+  border-color: #6abcff;
+}
+
+.steps-form__input_invalid {
+  color: #db0000;
+  border-color: #db0000;
+}
+
+.steps-form__feedback {
+  font-size: 14px;
+  color: #db0000;
+}
+
+.steps-form__controls {
+  padding-top: 40px;
+}
+
+.steps-form__submit-btn {
+  padding: 15px 30px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background: none;
+}
+
+.steps-history {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+
+.steps-history__header {
+  display: flex;
+  margin: 20px 0;
+}
+
+.steps-history__header-date {
+  width: 40%;
+  text-align: center;
+}
+
+.steps-history__header-distance {
+  width: 30%;
+  text-align: center;
+}
+
+.steps-history__header-actions {
+  width: 30%;
+  text-align: center;
+}
+
+.steps-history__body {
+  display: flex;
+  flex-flow: column nowrap;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.steps-history-item {
+  display: flex;
+  flex-flow: row nowrap;
+  box-sizing: border-box;
+  padding: 5px 0px;
+}
+
+.steps-history-item__date {
+  box-sizing: border-box;
+  width: 40%;
+  text-align: center;
+}
+
+.steps-history-item__distance {
+  box-sizing: border-box;
+  width: 30%;
+  padding-right: 60px;
+  text-align: right;
+}
+
+.steps-history-item__actions {
+  box-sizing: border-box;
+  width: 30%;
+  text-align: center;
+}
+
+.steps-history-item__actions-button {
+  color: #000000;
+  border: 0 none;
+  background: none;
+}
